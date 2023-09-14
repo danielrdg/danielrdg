@@ -1,4 +1,1 @@
-- 👋 Hi, I’m @danielrdg
-- 👀 I'm interested in machine learning, games and programming in general
-- 🌱 I’m currently learning Java at college
-- 📫 How to reach me dani.araujo2002@gmail.com
+cursando engenharia de software na PUCRS
