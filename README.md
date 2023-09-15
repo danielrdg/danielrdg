@@ -1,1 +1,1 @@
-cursando engenharia de software na PUCRS
+Cursando Engenharia de Software na PUCRS
