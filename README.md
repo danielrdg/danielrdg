@@ -5,7 +5,7 @@
 <p align="center"> 
 </p>
 
-## 👨‍🎓 <p align="right">I'm a software engineering student at the Pontifical University of Rio Grande do Sul</p>
+## <p align="right">👨‍🎓 I'm a software engineering student at the Pontifical University of Rio Grande do Sul</p>
 
 ## ✉️ Find me on:
 
