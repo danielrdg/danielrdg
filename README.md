@@ -1,4 +1,4 @@
-## 👋🏻 Hi there! my name is Daniel
+## 👋🏻 Hi there! I'm Daniel Araujo
 ![](https://visitor-badge.laobi.icu/badge?page_id=danielrdg.danielrdg)
 [![Github](https://img.shields.io/github/followers/danielrdg?label=Follow&style=social)](https://github.com/danielrdg)
 
