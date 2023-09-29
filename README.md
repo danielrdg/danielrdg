@@ -1,4 +1,4 @@
-## 👋🏻 Hi there! I'm Daniel
+## 👋🏻 Hi there! my name is Daniel
 ![](https://visitor-badge.laobi.icu/badge?page_id=danielrdg.danielrdg)
 [![Github](https://img.shields.io/github/followers/danielrdg?label=Follow&style=social)](https://github.com/danielrdg)
 
