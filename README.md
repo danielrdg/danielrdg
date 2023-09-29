@@ -1,3 +1,10 @@
+## 👋🏻 Hi there! I'm Daniel
+![](https://visitor-badge.laobi.icu/badge?page_id=danielrdg.danielrdg)
+[![Github](https://img.shields.io/github/followers/danielrdg?label=Follow&style=social)](https://github.com/danielrdg)
+
+<p allign="center"> 
+## 👨‍🎓 I'm a software engineering student at the Pontifical University of Rio Grande do Sul
+
 ## ✉️ Find me on:
 
 
