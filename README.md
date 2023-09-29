@@ -18,6 +18,6 @@
 ## 🏆 My GitHub stats:
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=danielrdg&show_icons=true&theme=monokai)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielrdg&theme=monokai)
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=danielrdg&theme=monokai)](https://github.com/danielrdg/github-readme-stats)
 
 
