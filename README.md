@@ -13,6 +13,9 @@ Welcome to my GitHub profile! I'm Daniel, and I'm passionate about software and 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielrdg&layout=donut)](https://github.com/danielrdg/github-readme-stats)
 
 
+
+
+
 ## Get in Touch
 
 - [LinkedIn](https://www.linkedin.com/in/danielrdgg/)
