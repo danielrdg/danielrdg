@@ -10,6 +10,7 @@ Welcome to my GitHub profile! I'm Daniel, and I'm passionate about software and 
 ## Stats
 
 ![danielrdg GitHub stats](https://github-readme-stats.vercel.app/api?username=danielrdg&show_icons=true&theme=dark)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielrdg&layout=donut)](https://github.com/danielrdg/github-readme-stats)
 
 
 ## Get in Touch
