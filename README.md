@@ -5,7 +5,6 @@ Welcome to my GitHub profile! I'm Daniel, and I'm passionate about software and 
 ## About Me
 
 - 🌱 I'm currently learning Java and SQL/MongoDB.
-- 📫 How to reach me: dani.araujo2002@gmail.com
 
 ## Stats
 
