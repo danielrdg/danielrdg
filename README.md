@@ -1,12 +1,12 @@
 # Hi there! 👋
 
-Welcome to my GitHub profile! I'm Daniel, and I'm passionate about software development and cybersecurity.
+Welcome to my GitHub profile! I'm Daniel, and I'm very passionate about software development and cybersecurity.
 
 ## About Me
 
 - 🎓 I'm currently studying Software Engineering at PUCRS
-- 🚀 Actively seeking an internship opportunity to grow and contribute to real-world projects.
-- 🌟 My current focus is on Back-End Development, working with both Spring Boot and .NET technologies.
+- 🌱 Working at Aegro as a fullstack developer intern.
+- 🌟 My focus is on Back-End Development, working mainly with Spring Boot.
 - 🎥 Passionate about movies and cinema.
   
 ## Stats
@@ -18,7 +18,7 @@ Welcome to my GitHub profile! I'm Daniel, and I'm passionate about software deve
 
 
 
-## Get in Touch
+## Get in Touch With Me
 
 - [LinkedIn](https://www.linkedin.com/in/danielrdgg/)
 
