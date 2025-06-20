@@ -1,20 +1,19 @@
-# Olá, seja bem-vindo 👋
+# Hi, I'm Daniel! 👋
 
 ![Contador de Visitantes](https://komarev.com/ghpvc/?username=danielrdg&style=flat-square&color=blue)
 
-Sou desenvolvedor de software com paixão por tecnologia, cibersegurança e soluções Full Stack. Atualmente focado no ecossistema Java e Angular, com experiência em Spring Boot.
+I'm a software developer with passion for tecnology, cybersecurity and full stack solutions. Currently focused on Java and Angular ecosystem, with experience in Spring Boot framework.
 
 ---
 
-🎓 Estudante de Engenharia de Software na **PUCRS**  
-💼 Estagiando como Desenvolvedor Fullstack na **Aegro**  
-🚀 Trabalhando com **Java, Spring Boot e Angular**  
-🔐 Entusiasta de **cibersegurança** e boas práticas de código  
-📧 dani.araujo2002@gmail.com
+🎓 Software Engineering student at **PUCRS**  
+💼 Working as a fullstack developer at **Aegro**  
+🚀 Working with **Java, Spring Boot e Angular**  
+🔐 **Cybersecurity** and clean code enthusiast   
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
+## 🛠️ Stacks and tools
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -29,18 +28,18 @@ Sou desenvolvedor de software com paixão por tecnologia, cibersegurança e solu
 
 ---
 
-## 📊 Estatísticas GitHub
+## 📊 GitHub statistics
 
 ![danielrdg GitHub stats](https://github-readme-stats.vercel.app/api?username=danielrdg&show_icons=true&theme=dark)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielrdg&layout=donut)](https://github.com/danielrdg/github-readme-stats)
 
 ---
 
-## 📫 Contato
+## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielrdgg/)
 [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dani.araujo2002@gmail.com)
 
 ---
 
-*Obrigado por visitar meu perfil!*
+*Thanks for passing by!*
