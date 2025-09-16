@@ -2,8 +2,6 @@
 <h1 align="center">Hi 👋, I'm Daniel</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=danielrdg&label=Profile%20views&color=0e75b6&style=flat" alt="danielrdg" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=danielrdg&theme=" alt="danielrdg" /></a> </p>
-
 - 🌱 I’m currently learning **Spring Boot and Angular**
 
 - 📫 How to reach me **dani.araujo2002@gmail.com**
