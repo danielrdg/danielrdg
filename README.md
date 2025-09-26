@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Daniel</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=danielrdg&label=Profile%20views&color=0e75b6&style=flat" alt="danielrdg" /> </p>
 
-- 🌱 I’m currently learning **Spring Boot and Angular**
+- 🌱 I’m currently working with **Spring Boot and Angular**
 
 - 📫 How to reach me **dani.araujo2002@gmail.com**
 
