@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Daniel</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=danielrdg&label=Profile%20views&color=0e75b6&style=flat" alt="danielrdg" /> </p>
 
-- 🌱 Currently working as a Fullstack Developer intern at Aegro using **Spring Boot and Angular**
+- 🌱 Currently working as a Fullstack Developer at Aegro using **Spring Boot and Angular**
 
 - 📫 How to reach me **dani.araujo2002@gmail.com**
 
