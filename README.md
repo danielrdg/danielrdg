@@ -1,30 +1,36 @@
-
-<h1 align="center">Hi 👋, I'm Daniel</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=danielrdg&label=Profile%20views&color=0e75b6&style=flat" alt="danielrdg" /> </p>
-
-- 🌱 Currently working as a Fullstack Developer Intern at Aegro using **Spring Boot and Angular**
-- 🎞️ 80's movie enthusiast
-
-<div> 
-<a href="https://www.linkedin.com/in/danielrdgg" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href = "mailto:dani.araujo2002@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-</div><h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/danielrdgg" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="danielrdgg" height="30" width="40" /></a></p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/springio-icon.svg" alt="Spring" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mongodb-original-wordmark.svg" alt="Mongodb" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/postgresql-original-wordmark.svg" alt="Postgresql" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Devops/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Software/getpostman-icon.svg" alt="Postman" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/java-original.svg" alt="Java" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/typescript-original.svg" alt="Typescript" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/angular.svg" alt="Angular" width="40" height="40"/>
+<p align="center">
+  <img src="./assets/card.svg" alt="profile card" width="700" />
 </p>
 
-<h3 align="left">Stars</h3>
-<img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielrdg&layout=compact&theme=onedark" alt=danielrdg />
+---
 
-<p>&nbsp;<img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=danielrdg&show_icons=true&locale=en&theme=onedark" alt="danielrdg" /></p>
+> *"dear god, tinkle tinkle hoy."*
+
+### about me
+
+full-stack developer based in Porto Alegre, backend-leaning. working at Aegro on fiscal domain features with Java and Spring Boot. i think too much about clean architecture and occasionally read Punpun mid code review.
+
+---
+
+### stack
+
+```
+languages    →  Java · TypeScript · SQL
+backend      →  Spring Boot
+frontend     →  Angular
+databases    →  PostgreSQL · MongoDB
+tools        →  IntelliJ · Git · GitHub
+```
+
+---
+
+### connect
+
+[![GitHub](https://img.shields.io/badge/github-%232d1a3e.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danielrdg)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%232d1a3e.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielrdgg/)
+
+---
+
+<p align="center">
+  <sub>oyasumi punpun</sub>
+</p>
