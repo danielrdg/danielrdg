@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Daniel Rodrigues in a pink neon sign, over a lacquered red lounge with gold lattice screens and two red lanterns. Full-stack engineer, AI automation, Porto Alegre, Brazil." src="assets/banner.svg" width="100%" />
+  <img alt="Daniel Rodrigues: full-stack engineer, multi-agent orchestration. Porto Alegre, Brazil." src="assets/banner.svg" width="100%" />
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 <br />
 
-<img alt="about" src="assets/h-about.svg" height="48" />
+<h2><img alt="about" src="assets/h-about.svg" height="48" /></h2>
 
 I'm a full-stack software engineer based in Porto Alegre, Brazil, with hands-on experience across the stack: Angular and TypeScript on the front end, Java and Spring Boot on the back end, and PostgreSQL and MongoDB for data.
 
@@ -23,7 +23,7 @@ Today I work on multi-agent orchestration and the AI harness at Aegro: the engin
 
 <br />
 
-<img alt="experience" src="assets/h-experience.svg" height="48" />
+<h2><img alt="experience" src="assets/h-experience.svg" height="48" /></h2>
 
 **Aegro**: Software Engineer
 - **Multi-agent orchestration and AI harness** (current). I design and build the agent workflows that take a ticket to a reviewed draft pull request, plus the tooling around them: planning, code review, error triage and support automation.
@@ -31,71 +31,71 @@ Today I work on multi-agent orchestration and the AI harness at Aegro: the engin
 
 <br />
 
-<img alt="education" src="assets/h-education.svg" height="48" />
+<h2><img alt="education" src="assets/h-education.svg" height="48" /></h2>
 
 **Software Engineering**, PUCRS (Pontifical Catholic University of Rio Grande do Sul), 2022–2026
 
 <br />
 
-<img alt="now building" src="assets/h-building.svg" height="48" />
+<h2><img alt="now building" src="assets/h-building.svg" height="48" /></h2>
 
 <a href="https://github.com/danielrdg/maitre"><img alt="maître: your agents' lounge. A terminal orchestrator for Claude Code agents." src="assets/maitre.svg" width="100%" /></a>
 
-**[maître](https://github.com/danielrdg/maitre)** is a terminal orchestrator for Claude Code agents, with a pixel-art lounge where you watch them work. The idea: you write every request in one place, and each topic gets its own room, a real Claude Code session in its own git worktree, on the model that fits the job. A janitor closes idle rooms without ever losing work, and the one agent that needs you rings the bell.
+**[maître](https://github.com/danielrdg/maitre)** is a terminal orchestrator for Claude Code agents, with a pixel-art lounge where you watch them work. The plan: you write every request in one place, and each topic gets its own room, a real Claude Code session in its own git worktree, on the model that fits the job. A janitor will close idle rooms without ever losing work, and the one agent that needs you will ring the bell.
 
-It's early and being built in the open, milestone by milestone. Open source, MIT.
+It's early: the first milestone, a demo of the lounge, is on its way. Open source, MIT.
 
 <br />
 
-<img alt="selected work" src="assets/h-work.svg" height="48" />
+<h2><img alt="selected work" src="assets/h-work.svg" height="48" /></h2>
 
 Selected AI automation work. These are internal tools, so they're described by what they do, not how they're built.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-ticket.svg" width="36" align="left" />
+      <img alt="" src="assets/i-ticket.svg" width="36" /><br />
       <b>Issue in, reviewed PR out.</b><br />
-      An agent pipeline that reads a ticket, plans, implements, tests and reviews its own diff in the right codebase, then opens a draft pull request. One engine for backend, web and mobile stacks, tuned per repo by a profile. A human approves the plan and the PR; it never merges.
+      An agent pipeline that reads a ticket, plans, implements, tests and reviews its own diff in the right codebase, then opens a draft pull request. One engine for backend, web and mobile codebases. A human approves the plan and the PR; it never merges.
     </td>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-console.svg" width="36" align="left" />
+      <img alt="" src="assets/i-console.svg" width="36" /><br />
       <b>A "press play" cockpit.</b><br />
-      A web console on top of that pipeline: pick an issue, read and edit the plan, approve it, and watch the run stream live. Planning runs without write access, and a run survives closing the tab.
+      A web console on top of that pipeline: pick an issue, read and edit the plan, approve it, and watch the run stream live.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-moon.svg" width="36" align="left" />
+      <img alt="" src="assets/i-moon.svg" width="36" /><br />
       <b>The long shift.</b><br />
-      A long, unsupervised work session: it takes open PRs to green, answers review requests, picks new work by explicit criteria and leaves a report at the end. It never merges, never approves its own PR, and never does anything irreversible without a human.
+      A long-running agent session: it takes open PRs to green, drafts reviews for a human to sign off, picks new work by explicit criteria and leaves a report at the end. It never merges, and anything irreversible waits for a human.
     </td>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-spec.svg" width="36" align="left" />
+      <img alt="" src="assets/i-spec.svg" width="36" /><br />
       <b>Spec-driven planning.</b><br />
-      A planning flow that sizes itself to the task: discover, specify, design, tasks, delegate, verify, outcome. It writes the spec, hands execution to the agents above, and checks the feature against its success metrics after launch.
+      A planning flow that sizes itself to the task, from discovery to a written spec and a set of tasks, then hands execution to the agents above and keeps the outcome in view after launch.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-broom.svg" width="36" align="left" />
+      <img alt="" src="assets/i-broom.svg" width="36" /><br />
       <b>Error janitor.</b><br />
       Reads production error telemetry, dedupes by stack trace, separates user-facing bugs from noise, ranks what's left by frequency, impact and simplicity, and files ready-to-work issues.
     </td>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-book.svg" width="36" align="left" />
+      <img alt="" src="assets/i-book.svg" width="36" /><br />
       <b>Support copilots.</b><br />
       Agents that write help-center articles by checking every step in a staging environment, and that investigate support tickets end to end, gathering read-only evidence before drafting the answer.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-shield.svg" width="36" align="left" />
+      <img alt="" src="assets/i-shield.svg" width="36" /><br />
       <b>PR risk triage</b> <sub>(co-built)</sub><br />
-      A GitHub Action that labels every pull request low, medium or high risk from signals in the diff. A PR that edits the triage rules is always high risk.
+      A GitHub Action that labels every pull request low, medium or high risk from signals in the diff, so reviewers know where to look first.
     </td>
     <td width="50%" valign="top">
-      <img alt="" src="assets/i-mask.svg" width="36" align="left" />
+      <img alt="" src="assets/i-mask.svg" width="36" /><br />
       <b>Side project: <a href="https://github.com/danielrdg/elysium">elysium</a>.</b><br />
       The 24 voices of Disco Elysium as a Claude skill: one of them takes over Claude's voice for a few turns, then hands the mic to the next.
     </td>
@@ -104,7 +104,7 @@ Selected AI automation work. These are internal tools, so they're described by w
 
 <br />
 
-<img alt="stack" src="assets/h-stack.svg" height="48" />
+<h2><img alt="stack" src="assets/h-stack.svg" height="48" /></h2>
 
 <p>
   <img alt="Java" src="https://img.shields.io/badge/Java-3a130f?style=flat-square&logo=openjdk&logoColor=d9a441" />

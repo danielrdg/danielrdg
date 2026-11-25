@@ -2,13 +2,15 @@
 
 Usage: python tools/generate_assets.py assets
 Needs fonttools and the OFL font files in tools/fonts (not committed):
-PixelifySans[wght].ttf and Silkscreen-Regular.ttf.
+PixelifySans[wght].ttf and Silkscreen-Regular.ttf, from
+https://github.com/google/fonts (ofl/pixelifysans, ofl/silkscreen).
 Text is converted to paths (no font files ship with the SVGs).
 Fonts: Pixelify Sans and Silkscreen, both SIL OFL 1.1.
 """
 import math
 import os
 import sys
+from xml.sax.saxutils import escape
 
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
@@ -16,9 +18,11 @@ from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
 
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+if len(sys.argv) != 2:
+    sys.exit("usage: python tools/generate_assets.py <output-dir>")
 OUT = sys.argv[1]
 
-LACA, OURO, NEON, LUZ, TINTA = "#3a130f", "#d9a441", "#ff5fa2", "#ffd45c", "#140b08"
+OURO, LUZ, TINTA = "#d9a441", "#ffd45c", "#140b08"
 NEON_TXT = "#ffe0ef"
 
 pix = instancer.instantiateVariableFont(TTFont(os.path.join(HERE, "PixelifySans[wght].ttf")), {"wght": 700})
@@ -250,6 +254,7 @@ STYLE = """
 
 
 def svg(w, h, body, title, defs=""):
+    title = escape(title, {'"': "&quot;"})
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{title}">'
             f"<title>{title}</title><defs>{defs}</defs>{body}</svg>\n")
 
@@ -333,7 +338,7 @@ def sign(label, icon_sprite, fname):
     body = [f'<rect x="2" y="2" width="{W - 4}" height="{H - 4}" rx="6" fill="{TINTA}" stroke="{OURO}" stroke-width="3"/>',
             f'<g shape-rendering="crispEdges">{icon_sprite.svg(3, 16, 8)}</g>',
             f'<g class="flicker" filter="url(#neon)">{tpath(pix, label, size, 76, 44, NEON_TXT, "start", 1)}</g>']
-    open(os.path.join(OUT, fname), "w").write(svg(W, H, "".join(body), label, STYLE + NEON_FILTER.format(a=1.2, b=3.5, c=8)))
+    write(fname, svg(W, H, "".join(body), label, STYLE + NEON_FILTER.format(a=1.2, b=3.5, c=8)))
 
 
 def featured():
@@ -353,23 +358,28 @@ def featured():
     defs = (STYLE + NEON_FILTER.format(a=2, b=6, c=14) +
             '<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a0e0a"/><stop offset="1" stop-color="#140b08"/></linearGradient>'
             '<radialGradient id="warm"><stop offset="0" stop-color="#ffd45c" stop-opacity=".35"/><stop offset="1" stop-color="#ffd45c" stop-opacity="0"/></radialGradient>')
-    open(os.path.join(OUT, "maitre.svg"), "w").write(svg(W, H, "".join(body), "maître: your agents' lounge", defs))
+    write("maitre.svg", svg(W, H, "".join(body), "maître: your agents' lounge", defs))
 
 
 def footer():
     W, H = 1200, 70
     body = [f'<g shape-rendering="crispEdges">{frieze(0, W, 0, 30)}</g>',
             tpath(silk, "SEATING AGENTS SINCE 2026", 14, 600, 58, "#a8957f", "middle", 3)]
-    open(os.path.join(OUT, "footer.svg"), "w").write(svg(W, H, "".join(body), "Seating agents since 2026"))
+    write("footer.svg", svg(W, H, "".join(body), "Seating agents since 2026"))
+
+
+def write(fname, content):
+    with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
+        f.write(content)
 
 
 def icon(sp, fname, title, s=3):
-    open(os.path.join(OUT, fname), "w").write(
+    write(fname,
         svg(16 * s, 16 * s, f'<g shape-rendering="crispEdges">{sp.svg(s)}</g>', title))
 
 
 os.makedirs(OUT, exist_ok=True)
-open(os.path.join(OUT, "banner.svg"), "w").write(banner())
+write("banner.svg", banner())
 featured()
 footer()
 sign("about", mascot(), "h-about.svg")
@@ -381,6 +391,6 @@ sign("stack", ic_clipboard(), "h-stack.svg")
 for fn, sp, t in [("i-ticket.svg", ic_ticket(), "ticket"), ("i-console.svg", ic_console(), "console"),
                   ("i-moon.svg", ic_moon(), "moon"), ("i-spec.svg", ic_clipboard(), "clipboard"),
                   ("i-broom.svg", ic_broom(), "broom"), ("i-book.svg", ic_book(), "book"),
-                  ("i-shield.svg", ic_shield(), "shield"), ("i-mask.svg", ic_mask(), "mask"), ("i-cap.svg", ic_cap(), "cap")]:
+                  ("i-shield.svg", ic_shield(), "shield"), ("i-mask.svg", ic_mask(), "mask")]:
     icon(sp, fn, t)
 print("ok")
