@@ -8,6 +8,7 @@
 </p>
 
 <p align="center">
+  <a href="https://danielrdg.github.io"><img alt="Portfolio: danielrdg.github.io" src="https://img.shields.io/badge/portfolio-danielrdg.github.io-5fd39a?style=flat-square&labelColor=3a130f" /></a>
   <a href="https://www.linkedin.com/in/danielrdgg"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-danielrdgg-d9a441?style=flat-square&labelColor=3a130f" /></a>
   <a href="mailto:dani.araujo2002@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-dani.araujo2002%40gmail.com-ff5fa2?style=flat-square&labelColor=3a130f" /></a>
   <a href="https://github.com/danielrdg/maitre"><img alt="Now building: maître" src="https://img.shields.io/badge/now%20building-ma%C3%AEtre-ffd45c?style=flat-square&labelColor=3a130f" /></a>
